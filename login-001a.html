@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Import materialize.css-->
+		<!--Import Google Icon Font-->
+      	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      	<link rel="stylesheet" href="css/font-awesome.css">
+		<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+		<link type="text/css" rel="stylesheet" href="css/jquery.bxslider.css" />
+		<link href="http://vjs.zencdn.net/5.8.8/video-js.css" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="css/reset.css" />
+		<link type="text/css" rel="stylesheet" href="css/grid.css" />
+		<link type="text/css" rel="stylesheet" href="css/styles.css" />
+
+		<script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+
+		<!--Let browser know website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	</head>
+
+	<body class="login">
+		<div class="lightbox login-box">
+			<div class="login-access">
+				<a class="close" href="javascript:void(0);"><img src="images/cross.svg" /></a>
+				<h2>Login</h2>
+				<form action="#">
+					<div class="row">
+						<div class="input-field col s12">
+							<input id="user" class="inputlogin" placeholder="password" type="text" >
+						</div>
+						<div class="input-field col s12">
+							<input id="password" class="inputlogin" placeholder="password" type="password" >
+						</div>
+						<a class="button waves-effect waves-light-blue lighten-1" href="#">Login</a>
+						<a class="forgot-password" href="javascript:void(0);">Forgot password</a>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="wrapper">
+			<div class="inner-wrapper">
+				<div class="row">
+					<header>
+						<div class="header span_12 mobile_12">
+							<div class="col span_3">
+								<a class="logotype" href="#"><img src="images/logotype-etools.svg"></a>
+							</div>
+							<div class="col span_6">
+								<a class="target-burger login-menu">
+								    <ul class="buns">
+								        <li class="bun"></li>
+								        <li class="bun"></li>
+								    </ul>
+								    <!--buns-->
+							    </a>
+								<div class="nav-menu">
+								    <nav class="main-nav" role="navigation">
+									    <ul id="nav-menu">
+									        <li><a href="javascript:void(0)">Products</a>
+									        	<ul class="submenu-drop">
+									        		<li><a href="site-finder-advanced-001g.html">Find</a></li>
+									        		<li><a href="reveal-001f.html">Reveal</a></li>
+									        		<li><a href="#">Match</a></li>
+									        	</ul>
+									        	<span class="bg-dropdown"></span>
+									        </li>
+									        <li><a href="pricing-001d.html">Pricing</a></li>
+									        <li><a href="#">About</a></li>
+									        <li><a href="#">Blog</a></li>
+									    </ul>
+									    <div class="mobile-bg"></div>
+									</nav>
+								</div>
+							</div>
+							<div class="col span_3 login-submenu logged">
+								<a class="button waves-effect waves-light-blue lighten-1" href="#">
+									<i class="person-icon">
+										<img src="images/icon-persons-01.svg" />
+									</i>
+									Tonny Robins <i class="fa fa-chevron-down" aria-hidden="true"></i>
+								</a>
+								<ul class="submenu">
+									<li class="part-info">
+										<p class="usage">Usage: <strong><i class="alert-icon"><img src="images/icon-exclamation.svg" /></i> 10 / 10</strong></p>
+										<p>Limite reset in <strong>0</strong> days</p>
+										<a class="button waves-effect waves-light-blue lighten-1" href="#">Upgrade now</a>
+									</li>
+									<li><a href="#"><i class="icon-dash"></i> My dashboard</a></li>
+									<li><a href="#"><i class="icon-bulk"></i> Bulk submit</a></li>
+									<li><a href="#"><i class="icon-pass"></i> Change password</a></li>
+									<li><a href="#"><i class="icon-crm"></i> CRM management</a></li>
+									<li><a href="#"><i class="icon-logout"></i> Logout</a></li>
+								</ul>
+							</div>
+						</div>
+					</header>
+				</div>
+				<div class="row">
+					<div class="content section-one span_12 mobile_12 search-type">
+						<div class="divide-100"></div>
+						<div class="block-form-finder">
+							<h2>Search Type</h2>
+							<section class="main-search">
+								<form class="search" method="post" action="#" >
+									<div class="block-keywords">
+										<div class="input-field keywords">
+											<select>
+												<option value="" disabled selected>Keywords</option>
+												<option value="1">Option 1</option>
+												<option value="2">Option 2</option>
+												<option value="3">Option 3</option>
+											</select>
+										</div>
+										<input type="text" name="q" class="bing-search" placeholder="Bing search operator" />
+									</div>
+									<div class="block-optional">
+										<h3>Optional filters:</h3>
+										<div class="input-field language">
+											<select>
+												<option value="" disabled selected>Language</option>
+												<option value="1">Option 1</option>
+												<option value="2">Option 2</option>
+												<option value="3">Option 3</option>
+											</select>
+										</div>
+										<div class="input-field region">
+											<select>
+												<option value="" disabled selected>Region</option>
+												<option value="1">Option 1</option>
+												<option value="2">Option 2</option>
+												<option value="3">Option 3</option>
+											</select>
+										</div>
+									</div>
+									<div class="other-filter">
+										<div class="input-field others">
+											<select>
+												<option value="" disabled selected>Add new tag</option>
+												<option value="1">Brazil</option>
+												<option value="2">Colombia</option>
+												<option value="3">Mexico</option>
+												<option value="3">Cuba</option>
+												<option value="3">Chile</option>
+												<option value="3">Peru</option>
+											</select>
+										</div>
+										<div class="chips-block">
+											<div class="chip">
+										    	Using WordPress 
+										    	<i class="close material-icons">close</i>
+										  	</div>
+										  	<div class="chip">
+										    	Accepts guest posts 
+										    	<i class="close material-icons">close</i>
+										  	</div>
+									  	</div>
+									</div>
+									<div class="box-advanced">
+										<a href="#"><i class="icon-advanced"></i> advanced</a>
+									</div>
+								</form>
+
+								<div class="select-metrics">
+									<h2>Select Metrics:</h2>
+									<form action="#">
+										<ul class="metrics">
+											<li>
+												<input type="checkbox" class="filled-in" id="filled-in-box-a" />
+												<label for="filled-in-box-a">Alexa rank</label>
+											</li>
+											<li>
+												<input type="checkbox" class="filled-in" id="filled-in-box-b"/>
+												<label for="filled-in-box-b">Missing SEO HTML tags</label>
+											</li>
+											<li>
+												<input type="checkbox" class="filled-in" id="filled-in-box-c" />
+												<label for="filled-in-box-c">Top 3 countries</label>
+											</li>
+											<li>
+												<input type="checkbox" class="filled-in" id="filled-in-box-d" />
+												<label for="filled-in-box-d">Whatever else</label>
+											</li>
+										</ul>
+										<a class="button waves-effect waves-light-blue lighten-1" href="#">Search!</a>
+									</form>
+								</div>
+							</section>
+						</div>
+					</div>
+					<div class="separator-midi advanced-two"></div>
+						<div class="content section-two span_12 advanced-two">
+						<div class="results-finder-advanced">
+							<h2>Results</h2>
+							<p>Select the results you would like to get contacts
+							for and then click <strong>Send to Email finder</strong></p>
+						</div>
+						<div class="table-finder-advanced">
+							<div class="missing-seo">
+								<span class="check-fill">
+									<input type="checkbox" class="filled-in" id="filled-in-check-all"/>
+									<label for="filled-in-check-all"></label>
+								</span>
+								<h3>Check all l With selected: <a href="#">Continue and send to Reveal</a></h3>
+							</div>
+							<table class="responsive-table">
+								<thead>
+									<tr>
+										<th data-field="order" width="5"><a href="#"><i class="arrow-order"></i></a></th>
+										<th data-field="title" width="35"><a href="#"><i class="arrow-order"></i>Title and URL</a></th>
+										<th data-field="metric-a" width="5"><a href="#"><i class="arrow-order"></i>Metric 1</a></th>
+										<th data-field="metric-b" width="5"><a href="#"><i class="arrow-order"></i>Metric 2</a></th>
+										<th data-field="top-3" width="10"><a href="#"><i class="arrow-order"></i>Top 3 countries</a></th>
+										<th data-field="alexa" width="10"><a href="#"><i class="arrow-order"></i>Alexa rank</a></th>
+										<th data-field="seo" width="30"><a href="#"><i class="arrow-order"></i>SEO Faults</a></th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td width="5">
+											<span class="check-fill">
+												<input type="checkbox" class="filled-in" id="filled-in-check-01"/>
+												<label for="filled-in-check-01"></label>
+											</span>
+										</td>
+										<td width="35">
+											<p><strong>ESPN: The Worldwide Leader in Sports</strong></p>
+											<a href="#">http://www.espn.com/</a>
+										</td>
+										<td width="5">Cell 1</td>
+										<td width="5">Cell 3</td>
+										<td width="10">
+											<img src="images/flag-canada.png" />
+											<img src="images/flag-eua.png" />
+											<img src="images/flag-england.png" />
+										</td>
+										<td width="10">6,470,339</td>
+										<td width="30">Homepage missing element</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="check-fill">
+												<input type="checkbox" class="filled-in" id="filled-in-check-02"/>
+												<label for="filled-in-check-02"></label>
+											</span>
+										</td>
+										<td>
+											<p><strong>CBS Sports - News, Live Scores, Sche...</strong></p>
+											<a href="#">http://www.cbssports.com/</a>
+										</td>
+										<td>Cell 1</td>
+										<td>Cell 3</td>
+										<td>
+											<img src="images/flag-canada.png" />
+											<img src="images/flag-eua.png" />
+											<img src="images/flag-england.png" />
+										</td>
+										<td>6,470,339</td>
+										<td>Homepage missing element</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="check-fill">
+												<input type="checkbox" class="filled-in" id="filled-in-check-03"/>
+												<label for="filled-in-check-03"></label>
+											</span>
+										</td>
+										<td>
+											<p><strong>Football Games, Results, Scores, Tran...</strong></p>
+											<a href="#">http://www.skysports.com/</a>
+										</td>
+										<td>Cell 1</td>
+										<td>Cell 3</td>
+										<td>
+											<img src="images/flag-canada.png" />
+											<img src="images/flag-eua.png" />
+											<img src="images/flag-england.png" />
+										</td>
+										<td>6,470,339</td>
+										<td>Homepage missing element</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="check-fill">
+												<input type="checkbox" class="filled-in" id="filled-in-check-04"/>
+												<label for="filled-in-check-04"></label>
+											</span>
+										</td>
+										<td>
+											<p><strong>Alabama Local News, Breaking News...</strong></p>
+											<a href="#">http://www.al.com/</a>
+										</td>
+										<td>Cell 1</td>
+										<td>Cell 3</td>
+										<td>
+											<img src="images/flag-canada.png" />
+											<img src="images/flag-eua.png" />
+											<img src="images/flag-england.png" />
+										</td>
+										<td>6,470,339</td>
+										<td>Homepage missing element</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="check-fill">
+												<input type="checkbox" class="filled-in" id="filled-in-check-05"/>
+												<label for="filled-in-check-05"></label>
+											</span>
+										</td>
+										<td>
+											<p><strong>NBC Sports | News, Video, Now</strong></p>
+											<a href="#">http://www.nbcsports.com/</a>
+										</td>
+										<td>Cell 1</td>
+										<td>Cell 3</td>
+										<td>
+											<img src="images/flag-canada.png" />
+											<img src="images/flag-eua.png" />
+											<img src="images/flag-england.png" />
+										</td>
+										<td>6,470,339</td>
+										<td>Homepage missing element</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="check-fill">
+												<input type="checkbox" class="filled-in" id="filled-in-check-06"/>
+												<label for="filled-in-check-06"></label>
+											</span>
+										</td>
+										<td>
+											<p><strong>Sports - Los Angeles Times</strong></p>
+											<a href="#">http://www.latimes.com/</a>
+										</td>
+										<td>Cell 1</td>
+										<td>Cell 3</td>
+										<td>
+											<img src="images/flag-canada.png" />
+											<img src="images/flag-eua.png" />
+											<img src="images/flag-england.png" />
+										</td>
+										<td>6,470,339</td>
+										<td>Homepage missing element</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="check-fill">
+												<input type="checkbox" class="filled-in" id="filled-in-check-07"/>
+												<label for="filled-in-check-07"></label>
+											</span>
+										</td>
+										<td>
+											<p><strong>ESPN: The Worldwide Leader in Sports</strong></p>
+											<a href="#">http://www.espn.com/</a>
+										</td>
+										<td>Cell 1</td>
+										<td>Cell 3</td>
+										<td>
+											<img src="images/flag-canada.png" />
+											<img src="images/flag-eua.png" />
+											<img src="images/flag-england.png" />
+										</td>
+										<td>6,470,339</td>
+										<td>Homepage missing element</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="box-more-table">
+							<a href="#"><i class="icon-show-more"></i> show more</a>
+						</div>
+						<a class="button waves-effect waves-light-white lighten-1 download-csv" href="#">Download CSV results</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer reveal">
+				<div class="inner-footer">
+					<div class="row">
+						<div class="span_12">
+							<div class="col span_2 logo-column mobile_12">
+								<a class="logotype" href="#"><img src="images/logotype-etools.svg"></a>
+								<ul class="nav-footer">
+							        <li><a href="#">Privacy policy </a></li>
+							        <li><a href="#">Terms of service</a></li>
+							    </ul>
+							</div>
+							<div class="col span_2 mobile_12">
+								<ul class="nav-footer">
+									<h4>Site Map</h4>
+							        <li><a href="#">Email Finder</a></li>
+							        <li><a href="#">Site Finder</a></li>
+							        <li><a href="#">Site matcher</a></li>
+							        <li><a href="#">Pricing</a></li>
+							    </ul>
+							</div>
+							<div class="col span_3 mobile_12">
+								<ul class="nav-footer">
+									<h4>About</h4>
+							        <li><a href="#">About </a></li>
+							        <li><a href="#">Blog</a></li>
+							        <li><a href="#">Investors</a></li>
+							        <li><a href="#">Refund policy</a></li>
+							    </ul>
+							</div>
+							<div class="col span_5 acents mobile_12">
+								<ul class="social-footer">
+							        <li><a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							        <li><a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							        <li><a href="#" class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+							    </ul>
+								<p class="block-quotes">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							</div>
+						</div>
+					</div>
+					<div class="row copyright">
+						<div class="span_12 symbol">
+							<img src="images/symbol-etools.svg" />
+							<span>2016 Etools. All rights reserved.</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Import jQuery before materialize.js-->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+		<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+		<script src="http://vjs.zencdn.net/5.8.8/video.js"></script>
+		<script type="text/javascript" src="js/etools.js"></script>
+	</body>
+</html>

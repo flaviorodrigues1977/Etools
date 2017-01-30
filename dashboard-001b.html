@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Import materialize.css-->
+		<!--Import Google Icon Font-->
+      	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      	<link rel="stylesheet" href="css/font-awesome.css">
+		<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+		<link type="text/css" rel="stylesheet" href="css/jquery.bxslider.css" />
+		<link href="http://vjs.zencdn.net/5.8.8/video-js.css" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="css/reset.css" />
+		<link type="text/css" rel="stylesheet" href="css/grid.css" />
+		<link type="text/css" rel="stylesheet" href="css/styles.css" />
+		
+		<!--Let browser know website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	</head>
+
+	<body class="dashboard">
+		<div class="wrapper">
+			<div class="inner-wrapper">
+				<div class="row">
+					<header>
+						<div class="header span_12 mobile_12">
+							<div class="col span_3">
+								<a class="logotype" href="#"><img src="images/logotype-etools.svg"></a>
+							</div>
+							<div class="col span_6">
+								<a class="target-burger login-menu">
+								    <ul class="buns">
+								        <li class="bun"></li>
+								        <li class="bun"></li>
+								    </ul>
+								    <!--buns-->
+							    </a>
+								<div class="nav-menu">
+								    <nav class="main-nav" role="navigation">
+									    <ul id="nav-menu">
+									        <li><a href="javascript:void(0)">Products</a>
+									        	<ul class="submenu-drop">
+									        		<li><a href="site-finder-advanced-001g.html">Find</a></li>
+									        		<li><a href="reveal-001f.html">Reveal</a></li>
+									        		<li><a href="#">Match</a></li>
+									        	</ul>
+									        	<span class="bg-dropdown"></span>
+									        </li>
+									        <li><a href="pricing-001d.html">Pricing</a></li>
+									        <li><a href="#">About</a></li>
+									        <li><a href="#">Blog</a></li>
+									    </ul>
+									    <div class="mobile-bg"></div>
+									</nav>
+								</div>
+							</div>
+							<div class="col span_3 login-submenu logged">
+								<a class="button waves-effect waves-light-blue lighten-1" href="#">
+									<i class="person-icon">
+										<img src="images/icon-persons-01.svg" />
+									</i>
+									Tonny Robins <i class="fa fa-chevron-down" aria-hidden="true"></i>
+								</a>
+								<ul class="submenu">
+									<li class="part-info">
+										<p class="usage">Usage: <strong><i class="alert-icon"><img src="images/icon-exclamation.svg" /></i> 10 / 10</strong></p>
+										<p>Limite reset in <strong>0</strong> days</p>
+										<a class="button waves-effect waves-light-blue lighten-1" href="#">Upgrade now</a>
+									</li>
+									<li><a href="#"><i class="icon-dash"></i> My dashboard</a></li>
+									<li><a href="#"><i class="icon-bulk"></i> Bulk submit</a></li>
+									<li><a href="#"><i class="icon-pass"></i> Change password</a></li>
+									<li><a href="#"><i class="icon-crm"></i> CRM management</a></li>
+									<li><a href="#"><i class="icon-logout"></i> Logout</a></li>
+								</ul>
+							</div>
+						</div>
+					</header>
+				</div>
+				<div class="row">
+					<div class="content section-one span_12 mobile_12 dashboard-content">
+						<div class="divide-100"></div>
+						<section class="main-dashboard">
+							<div class="graph-one">
+								<h3>Dashboard</h3>
+								<div class="comb-select">
+									<div class="input-field date-one">
+										<select>
+											<option value="" disabled selected>11-22-2016</option>
+											<option value="1">Option 1</option>
+											<option value="2">Option 2</option>
+											<option value="3">Option 3</option>
+										</select>
+									</div>
+									<div class="input-field date-two">
+										<select>
+											<option value="" disabled selected>10-26-2016</option>
+											<option value="1">Option 1</option>
+											<option value="2">Option 2</option>
+											<option value="3">Option 3</option>
+										</select>
+									</div>
+								</div>
+								<div class="graph-statistics">
+									<canvas id="graphOne" width="900" height="280"></canvas>
+								</div>
+							</div>
+							<div class="separator-midi"></div>
+							<div class="graph-two">
+								<div class="my-stats">
+									<h3>My statistics [Test]</h3>
+									<p>All queries: <span>7</span></p>
+									<canvas id="graphTwo" width="900" height="297"></canvas>
+								</div>
+							</div>
+							<div class="separator-midi"></div>
+							<div class="graph-query-hist">
+								<h3>Query history</h3>
+								<div class="comb-select">
+									<p>Tool</p>
+									<div class="input-field tool">
+										<select>
+											<option value="" disabled selected>Any</option>
+											<option value="1">Option 1</option>
+											<option value="2">Option 2</option>
+											<option value="3">Option 3</option>
+										</select>
+									</div>
+									<div class="result">All result: <span>7</span></div>
+								</div>
+								<table class="table-query-history striped">
+									<thead>
+										<tr>
+											<th data-field="user" width="15%">User</th>
+											<th data-field="tool" width="25%">Tool</th>
+											<th data-field="query" width="30%">Query</th>
+											<th data-field="date-time" width="30%">Date & time</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td width="15%">Test</td>
+											<td width="25%">Email finder</td>
+											<td width="30%">primeseries.to</td>
+											<td width="30%">2016-11-23 @ 04:40</td>
+										</tr>
+										<tr>
+											<td width="15%">Test</td>
+											<td width="25%">Email finder</td>
+											<td width="30%">armani.com</td>
+											<td width="30%">2016-11-23 @ 04:38</td>
+										</tr>
+										<tr>
+											<td width="15%">Test</td>
+											<td width="25%">Site Finder</td>
+											<td width="30%">movie streaming</td>
+											<td width="30%">2016-11-23 @ 04:30</td>
+										</tr>
+										<tr>
+											<td width="15%">Test</td>
+											<td width="25%">Email finder</td>
+											<td width="30%">primeseries.to</td>
+											<td width="30%">2016-11-23 @ 03:10</td>
+										</tr>
+										<tr>
+											<td width="15%">Test</td>
+											<td width="25%">Site Finder</td>
+											<td width="30%">armani.com</td>
+											<td width="30%">2016-11-23 @ 03:00</td>
+										</tr>
+										<tr>
+											<td width="15%">Test</td>
+											<td width="25%">Email finder</td>
+											<td width="30%">movie streaming</td>
+											<td width="30%">2016-11-23 @ 02:40</td>
+										</tr>
+										<tr>
+											<td width="15%">Test</td>
+											<td width="25%">Site Finder</td>
+											<td width="30%">nike.com</td>
+											<td width="30%">2016-11-23 @ 01:58</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+			<div class="footer reveal">
+				<div class="inner-footer">
+					<div class="row">
+						<div class="span_12">
+							<div class="col span_2 logo-column mobile_12">
+								<a class="logotype" href="#"><img src="images/logotype-etools.svg"></a>
+								<ul class="nav-footer">
+							        <li><a href="#">Privacy policy </a></li>
+							        <li><a href="#">Terms of service</a></li>
+							    </ul>
+							</div>
+							<div class="col span_2 mobile_12">
+								<ul class="nav-footer">
+									<h4>Site Map</h4>
+							        <li><a href="#">Email Finder</a></li>
+							        <li><a href="#">Site Finder</a></li>
+							        <li><a href="#">Site matcher</a></li>
+							        <li><a href="#">Pricing</a></li>
+							    </ul>
+							</div>
+							<div class="col span_3 mobile_12">
+								<ul class="nav-footer">
+									<h4>About</h4>
+							        <li><a href="#">About </a></li>
+							        <li><a href="#">Blog</a></li>
+							        <li><a href="#">Investors</a></li>
+							        <li><a href="#">Refund policy</a></li>
+							    </ul>
+							</div>
+							<div class="col span_5 acents mobile_12">
+								<ul class="social-footer">
+							        <li><a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							        <li><a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							        <li><a href="#" class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+							    </ul>
+								<p class="block-quotes">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							</div>
+						</div>
+					</div>
+					<div class="row copyright">
+						<div class="span_12 symbol">
+							<img src="images/symbol-etools.svg" />
+							<span>2016 Etools. All rights reserved.</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Import jQuery before materialize.js-->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+		<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+		<script src="http://vjs.zencdn.net/5.8.8/video.js"></script>
+		<script type="text/javascript" src="js/etools.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.js"></script>
+    	<script>
+			var ctxOne = document.getElementById("graphOne");
+			var myChart = new Chart(ctxOne, {
+			    type: 'line',
+			    data: {
+			        labels: ["Nov-16", "Nov-17", "Nov-18", "Nov-19", "Nov-20", "Nov-21","Nov-22", "Nov-23"],
+			        datasets: [
+        			{	
+			            data: [0, 0, 0, 0, 0, 0, 3, 3],
+			            backgroundColor: [
+			                'rgba(126, 243, 194, 0.2)'
+			            ],
+			            borderColor: [
+			                'rgba(7,221,151,1)'
+			            ],
+			            borderWidth: 1
+			        }]
+			    },
+			    options: {
+			    	legend: {
+			            display: false,
+			            labels: {
+			                fontColor: 'rgb(255, 99, 132)'
+			            }
+			        },
+			    	title: {
+			            display: false,
+			            text: 'Custom Chart Title'
+			        },
+			    	responsive: true,
+			        scales: {
+			            yAxes: [{
+			                ticks: {
+			                    beginAtZero:true
+			                }
+			            }]
+			        }
+			    }
+			});
+			var ctxTwo = document.getElementById("graphTwo");
+			var myChart = new Chart(ctxTwo, {
+			    type: 'doughnut',
+			    data: {
+			        labels: ["Email finder", "Site finder"],
+			        datasets: [
+        			{	
+			            data: [4, 3],
+			            backgroundColor: [
+			                'rgba(28, 209, 168, 1)',
+			                'rgba(35, 236, 135, 1)'
+			            ],
+			            borderColor: [
+			                'rgba(7,221,151,0)'
+			            ],
+			            borderWidth: 0
+			        }]
+			    },
+			    options: {
+			    	legend: {
+			            display: true,
+			            position: "right",
+			            boxWidth: 250,
+			            padding: 10,
+			            labels: {
+			                fontColor: 'rgb(0, 0, 0)'
+			            }
+			        },
+			    	title: {
+			            display: false,
+			            text: 'Custom Chart Title'
+			        },
+			    	responsive: true
+			    }
+			});
+		</script>
+	</body>
+</html>

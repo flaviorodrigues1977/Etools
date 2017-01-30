@@ -1,0 +1,413 @@
+/* Reusable column setup */
+.mixin-col {
+  border: 0px solid rgba(0, 0, 0, 0);
+  float: left;
+  box-sizing: border-box;
+  background-clip: padding-box !important;
+}
+.col {
+  border: 0px solid rgba(0, 0, 0, 0);
+  float: left;
+  box-sizing: border-box;
+  background-clip: padding-box !important;
+}
+.mixin-span_first {
+  margin-left: 0;
+}
+/* 1. 12 Column Grid 0px - 599px
+    -----------------------------------------------------------------------------
+
+    Span 1:    6.775%
+    Span 2:    15.25%
+    Span 3:    23.725%
+    Span 4:    32.2%
+    Span 5:    40.675%
+    Span 6:    49.15%
+    Span 7:    57.625%
+    Span 8:    66.1%
+    Span 9:    74.575%
+    Span 10:    83.05%
+    Span 11:    91.525%
+    Span 12:    100%
+
+    ----------------------------------------------------------------------------- */
+@media screen and (min-width: 0px) and (max-width: 599px) {
+  .col {
+    margin-left: 1.7%;
+    padding: 0 0px;
+  }
+  /* --- Gridpak variables ---*/
+  .row .col:first-child {
+    margin-left: 0;
+  }
+  /*
+        Add your semantic classnames in alongside their corresponding spans here. e.g.
+
+        .span_3,
+        .my_semantic_class_name {
+            ...
+        }
+
+        */
+  .span_1 {
+    width: 100%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_2 {
+    width: 201.7%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_3 {
+    width: 303.4%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_4 {
+    width: 405.1%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_5 {
+    width: 506.8%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_6 {
+    width: 608.5%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_7 {
+    width: 710.2%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_8 {
+    width: 811.9%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_9 {
+    width: 913.6%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_10 {
+    width: 1015.3%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_11 {
+    width: 1117%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_12 {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+/* 2. 12 Column Grid 600px - 979px
+    -----------------------------------------------------------------------------
+
+    Span 1:    6.775%
+    Span 2:    15.25%
+    Span 3:    23.725%
+    Span 4:    32.2%
+    Span 5:    40.675%
+    Span 6:    49.15%
+    Span 7:    57.625%
+    Span 8:    66.1%
+    Span 9:    74.575%
+    Span 10:    83.05%
+    Span 11:    91.525%
+    Span 12:    100%
+
+    ----------------------------------------------------------------------------- */
+@media screen and (min-width: 600px) and (max-width: 979px) {
+  .col {
+    margin-left: 1.7%;
+    padding: 0 20px;
+  }
+  /* --- Gridpak variables ---*/
+  .row .col:first-child {
+    margin-left: 0;
+  }
+  .span_1 {
+    width: 6.775%;
+    border-left-width: 0;
+    padding: 0 20px;
+    margin-left: 1.7%;
+  }
+  .span_2 {
+    width: 15.25%;
+    border-left-width: 0;
+    padding: 0 20px;
+    margin-left: 1.7%;
+  }
+  .span_3 {
+    width: 23.725%;
+    border-left-width: 0;
+    padding: 0 20px;
+    margin-left: 1.7%;
+  }
+  .span_4 {
+    width: 32.2%;
+    border-left-width: 0;
+    padding: 0 20px;
+    margin-left: 1.7%;
+  }
+  .span_5 {
+    width: 40.675%;
+    border-left-width: 0;
+    padding: 0 20px;
+    margin-left: 1.7%;
+  }
+  .span_6 {
+    width: 49.15%;
+    border-left-width: 0;
+    padding: 0 20px;
+    margin-left: 1.7%;
+  }
+  .span_7 {
+    width: 57.625%;
+    border-left-width: 0;
+    padding: 0 20px;
+    margin-left: 1.7%;
+  }
+  .span_8 {
+    width: 66.1%;
+    border-left-width: 0;
+    padding: 0 20px;
+    margin-left: 1.7%;
+  }
+  .span_9 {
+    width: 74.575%;
+    border-left-width: 0;
+    padding: 0 20px;
+    margin-left: 1.7%;
+  }
+  .span_10 {
+    width: 83.05%;
+    border-left-width: 0;
+    padding: 0 20px;
+    margin-left: 1.7%;
+  }
+  .span_11 {
+    width: 91.525%;
+    border-left-width: 0;
+    padding: 0 20px;
+    margin-left: 1.7%;
+  }
+  .span_12 {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+/* 3. 12 Column Grid 980px - 1339px
+    -----------------------------------------------------------------------------
+
+    Span 1:    6.775%
+    Span 2:    15.25%
+    Span 3:    23.725%
+    Span 4:    32.2%
+    Span 5:    40.675%
+    Span 6:    49.15%
+    Span 7:    57.625%
+    Span 8:    66.1%
+    Span 9:    74.575%
+    Span 10:    83.05%
+    Span 11:    91.525%
+    Span 12:    100%
+
+    ----------------------------------------------------------------------------- */
+@media screen and (min-width: 980px) and (max-width: 1339px) {
+  .col {
+    margin-left: 1.7%;
+    padding: 0 20px;
+  }
+  /* --- Gridpak variables ---*/
+  .row .col:first-child {
+    margin-left: 0;
+  }
+  .span_1 {
+    width: 6.775%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_2 {
+    width: 15.25%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_3 {
+    width: 23.725%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_4 {
+    width: 32.2%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_5 {
+    width: 40.675%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_6 {
+    width: 49.15%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_7 {
+    width: 57.625%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_8 {
+    width: 66.1%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_9 {
+    width: 74.575%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_10 {
+    width: 83.05%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_11 {
+    width: 91.525%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_12 {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+/* 4. 12 Column Grid 1340px - Infinity
+    -----------------------------------------------------------------------------
+
+    Span 1:    6.775%
+    Span 2:    15.25%
+    Span 3:    23.725%
+    Span 4:    32.2%
+    Span 5:    40.675%
+    Span 6:    49.15%
+    Span 7:    57.625%
+    Span 8:    66.1%
+    Span 9:    74.575%
+    Span 10:    83.05%
+    Span 11:    91.525%
+    Span 12:    100%
+
+    ----------------------------------------------------------------------------- */
+@media screen and (min-width: 1340px) {
+  .col {
+    margin-left: 1.7%;
+    padding: 0 0px;
+  }
+  /* --- Gridpak variables ---*/
+  .row .col:first-child {
+    margin-left: 0;
+  }
+  .span_1 {
+    width: 6.775%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_2 {
+    width: 15.25%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_3 {
+    width: 23.725%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_4 {
+    width: 32.2%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_5 {
+    width: 40.675%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_6 {
+    width: 49.15%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_7 {
+    width: 57.625%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_8 {
+    width: 66.1%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_9 {
+    width: 74.575%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_10 {
+    width: 83.05%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_11 {
+    width: 91.525%;
+    border-left-width: 0;
+    padding: 0 0px;
+    margin-left: 1.7%;
+  }
+  .span_12 {
+    margin-left: 0;
+    width: 100%;
+  }
+}

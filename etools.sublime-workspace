@@ -1,0 +1,397 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text-de",
+				"text-underline-position"
+			],
+			[
+				"text",
+				"text-decoration-style"
+			],
+			[
+				"out",
+				"outline-offset"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"block",
+				"block-keywords"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"select",
+				"select-wrapper"
+			],
+			[
+				"backgroun",
+				"background-image"
+			],
+			[
+				"table",
+				"table-two"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"whi",
+				"width"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"overflow",
+				"overflow-x"
+			],
+			[
+				"ini",
+				"inline-block"
+			],
+			[
+				"inline",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/SERVER/www/etools"
+	],
+	"file_history":
+	[
+		"/C/SERVER/www/etools/reveal-001f.html",
+		"/C/SERVER/www/etools/browser-extension-001c.html",
+		"/C/SERVER/www/etools/less/styles.less",
+		"/C/SERVER/www/etools/home-002c.html",
+		"/C/SERVER/www/etools/dashboard-001b.html",
+		"/C/SERVER/www/etools/js/chart.js",
+		"/F/#SCRIPTS/#CHARTJS/samples/polar-area.html",
+		"/C/SERVER/www/etools/site-finder-advanced-001g.html",
+		"/C/#CLIENTES/NOVA UNIÃO/SITE/enderecos-unidades.html",
+		"/D/SERVIDOR/www/etools/js/etools.js",
+		"/D/SERVIDOR/www/etools/home-001d.html",
+		"/D/#ADMINISTRATIVO/#BACKUPS/UPDATE pn_options.txt",
+		"/D/SERVIDOR/www/etools/reveal-001f.html",
+		"/D/SERVIDOR/www/etools/home-002c.html",
+		"/D/#CLIENTES/NOVA UNIÃO/enderecos-unidades.html",
+		"/D/SERVIDOR/www/etools/site-finder-advanced-001g.html",
+		"/D/SERVIDOR/www/etools/less/grid.less",
+		"/D/#CLIENTES/NOVA UNIÃO/lista-academias.html",
+		"/D/#ADMINISTRATIVO/lista-emailmkt-premium.txt",
+		"/C/Users/Flávio Rodrigues/AppData/Local/Temp/fz3temp-2/index.html",
+		"/D/#ADMINISTRATIVO/#BACKUPS/UPDATE pn_options",
+		"/D/SERVIDOR/www/etools/less/reset.less",
+		"/D/SERVIDOR/www/etools/css/jquery.bxslider.css",
+		"/D/#CLIENTES/ROTHIER/STADIO/js/stadio.js",
+		"/D/#CLIENTES/ROTHIER/STADIO/message-001-b.html",
+		"/D/SERVIDOR/www/stadio/js/stadio.js",
+		"/D/SERVIDOR/www/etools/scripts/etools.js",
+		"/D/SERVIDOR/www/stadio/club-dashboard-001-b.html",
+		"/D/SERVIDOR/www/stadio/css/stadio.css",
+		"/D/SERVIDOR/www/etools/css/font-awesome.css",
+		"/C/Users/Flávio Rodrigues/Desktop/font-awesome-4.7.0/css/font-awesome.css",
+		"/D/SERVIDOR/www/etools/less/variables.less",
+		"/C/Users/Flávio Rodrigues/Desktop/font-awesome-4.7.0/less/path.less",
+		"/D/SERVIDOR/www/etools/css/variables.css",
+		"/D/SERVIDOR/www/etools/koala-config.json",
+		"/D/#CLIENTES/ETOOLS/fonts/webfontkit-20161122-080627/stylesheet.css",
+		"/C/Users/Flávio Rodrigues/Desktop/gridpak/demo/index.html",
+		"/C/Users/Flávio Rodrigues/Desktop/gridpak/demo/gridpak.demo.less",
+		"/D/SERVIDOR/www/stadio/login-001-i.html",
+		"/C/Users/Flávio Rodrigues/Desktop/gridpak/gridpak.less",
+		"/D/SERVIDOR/www/etools/css/styles.css",
+		"/D/SERVIDOR/www/gridpak/gridpak.less",
+		"/D/SERVIDOR/www/gridpak/demo/index.html",
+		"/D/#CLIENTES/USEGOGYM/images/style.css",
+		"/C/Users/Flávio Rodrigues/AppData/Local/Temp/fz3temp-2/functions.php",
+		"/D/#ADMINISTRATIVO/#BACKUPS/CONFIG CLOUD SAVANNA HOLDING.txt",
+		"/C/Users/Flávio Rodrigues/Desktop/usegogym.wordpress.2016-11-16.xml",
+		"/D/SERVIDOR/www/delfim/delfim.sql",
+		"/D/#CLIENTES/MARAN/index.html",
+		"/C/Users/Flávio Rodrigues/AppData/Local/Temp/fz3temp-2/wp-config.php",
+		"/D/SERVIDOR/www/delfim/bdigpainelize-migrate-20160511165840.sql.gz",
+		"/C/Program Files/VertrigoServ/www/delfim/bdigtsconsult-migrate-20160510145826.sql/bdigtsconsult-migrate-20160510145826.sql",
+		"/D/#ADMINISTRATIVO/inserir_usuarios.sql",
+		"/D/#CLIENTES/DELFIM/BACKUP SITE/bdigtsconsult-migrate-20160510145826.sql",
+		"/C/Users/Flávio Rodrigues/AppData/Local/Temp/fz3temp-2/style.css",
+		"/C/Users/Flávio Rodrigues/AppData/Local/Temp/fz3temp-2/.htaccess",
+		"/C/Users/Flávio Rodrigues/AppData/Local/Temp/fz3temp-2/error_log",
+		"/D/#CLIENTES/USEGOGYM/images/pt_BR.po",
+		"/C/Users/Flávio Rodrigues/AppData/Local/Temp/fz3temp-2/footer.php",
+		"/D/SERVIDOR/www/ciatordesillasnew/wp-content/themes/tordesillas/inscripcion.php",
+		"/D/SERVIDOR/www/ciatordesillasnew/wp-content/themes/tordesillas/nubes.php",
+		"/D/SERVIDOR/www/ciatordesillasnew/wp-content/themes/tordesillas/home.php",
+		"/D/SERVIDOR/www/ciatordesillasnew/wp-content/themes/tordesillas/header.php",
+		"/D/SERVIDOR/www/ciatordesillasnew/wp-content/themes/tordesillas/tordesillas_styles.css",
+		"/C/Users/Flávio Rodrigues/AppData/Local/Temp/fz3temp-2/header.php",
+		"/C/Users/Flávio Rodrigues/AppData/Local/Temp/fz3temp-2/template-homepage.php",
+		"/D/SERVIDOR/bin/apache/apache2.4.17/bin/php.ini",
+		"/D/#ADMINISTRATIVO/senhas.txt",
+		"/D/SERVIDOR/www/ciatordesillasnew/wp-content/themes/tordesillas/category.php",
+		"/D/SERVIDOR/www/ciatordesillasnew/wp-content/themes/tordesillas/single.php",
+		"/D/SERVIDOR/www/ciatordesillasnew/wp-content/themes/tordesillas/page.php",
+		"/D/SERVIDOR/www/ciatordesillasnew/wp-content/themes/tordesillas/archive.php",
+		"/D/#RECURSOS/SCRIPTS/masterslider-v304/masterslider304/masterslider-installable/masterslider/masterslider.php",
+		"/D/#RECURSOS/SCRIPTS/masterslider-v304/masterslider304/masterslider-installable/masterslider/index.php",
+		"/D/SERVIDOR/www/ciatordesillasnew/wp-content/themes/tordesillas/navcategories.php",
+		"/D/SERVIDOR/www/ciatordesillasnew/wp-content/themes/tordesillas/functions.php",
+		"/D/SERVIDOR/bin/apache/apache2.4.17/conf/httpd.conf",
+		"/D/SERVIDOR/www/ciatordesillasnew/wp-content/themes/tordesillas/presentacion.php",
+		"/D/SERVIDOR/www/ciatordesillasnew/wp-content/themes/tordesillas/presentation.php",
+		"/D/SERVIDOR/www/usegogym/gogym/style.css",
+		"/D/ld/phpinfo.php",
+		"/D/SERVIDOR/www/index.php",
+		"/C/Users/Flávio Rodrigues/AppData/Local/Temp/fz3temp-3/storefront-functions.php",
+		"/C/Users/Flávio Rodrigues/AppData/Local/Temp/fz3temp-3/functions.php",
+		"/C/Users/Flávio Rodrigues/AppData/Local/Temp/fz3temp-3/style.css",
+		"/C/Users/Flávio Rodrigues/AppData/Local/Temp/fz3temp-3/storefront-template-functions.php",
+		"/D/YITH WooCommerce Multi Vendor Premium v1.9.8/yith-woocommerce-multi-vendor-premium/includes/functions.yith-vendors.php",
+		"/D/YITH WooCommerce Multi Vendor Premium v1.9.8/yith-woocommerce-multi-vendor-premium/init.php",
+		"/C/Users/Flávio Rodrigues/Pictures/Moip-Checkout-Transparente-master/README.md",
+		"/C/Users/Flávio Rodrigues/Pictures/Moip-Checkout-Transparente-master/install.xml",
+		"/C/Users/Flávio Rodrigues/AppData/Local/Temp/fz3temp-2/moip.php",
+		"/C/Users/Flávio Rodrigues/Desktop/traducao-master/install.sql",
+		"/C/Users/Flávio Rodrigues/AppData/Local/Temp/fz3temp-2/cli_install.php",
+		"/C/Users/Flávio Rodrigues/AppData/Local/Temp/fz3temp-2/config.php",
+		"/C/Users/Flávio Rodrigues/AppData/Local/Temp/fz3temp-2/config 2.php",
+		"/C/Users/Flávio Rodrigues/Desktop/traducao-master/README.md",
+		"/C/Users/Flávio Rodrigues/AppData/Local/Temp/fz3temp-2/variation-add-to-cart-button.php",
+		"/C/Users/Flávio Rodrigues/AppData/Local/Temp/fz3temp-2/variation.php",
+		"/C/Users/Flávio Rodrigues/AppData/Local/Temp/fz3temp-2/variable.php",
+		"/C/Users/Flávio Rodrigues/AppData/Local/Temp/fz3temp-2/quantity-input.php",
+		"/C/Users/Flávio Rodrigues/AppData/Local/Temp/fz3temp-2/avia.js",
+		"/D/SERVIDOR/www/usegogym/.htaccess.txt",
+		"/C/Users/Flávio Rodrigues/Desktop/error_log",
+		"/D/SERVIDOR/www/usegogym/config.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Violet",
+			"violet",
+			"block-form-finder",
+			"block-form-",
+			"./",
+			"input[type=\"text\"]",
+			"p",
+			"block-key",
+			"20",
+			"Ital",
+			"Ita",
+			"itália",
+			"italia",
+			"page",
+			"nova união TC",
+			"Nova União TC",
+			".fa",
+			"$groups",
+			"$groups as $group",
+			"groupmeta()",
+			"groups_get_groupmeta()",
+			".mainmenu .menu a",
+			".pmc-menu-social.cart .cartWrapper",
+			".widget_tag_cloud a",
+			".widget_nav_menu ul li",
+			".widget_nav_menu ul li a",
+			".elementor-heading-title",
+			".elementor-widget-heading .elementor-heading-title",
+			"mail",
+			"footer",
+			"section.avia_codeblock_section.avia_code_block_0",
+			"page-id-2895",
+			"page-id-5733"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "etools.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 332.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
