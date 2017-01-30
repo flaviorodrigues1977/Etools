@@ -12,6 +12,7 @@ A query is counted when a successful use occurs on Email Finder, Site Finder, or
 - MATERIALIZE
 - CHARTJS
 - KOALA (Compilação e Minificação)
+- RESPONSIVO
 
 <strong>VERSÃO TESTE:</strong><br />
 http://www.altadev.net/projects/etools/login-001a.html<br />
